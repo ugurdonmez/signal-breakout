@@ -77,7 +77,7 @@ const main = async () => {
     const marketData = await fetchMarketData(symbol, timeframe, limit);
     const analyzedData = analyzeData(marketData);
 
-    console.log('Promising Pairs:', analyzedData);
+    console.log('Promising Pairs test:', analyzedData);
 };
 
 main();
